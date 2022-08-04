@@ -1,0 +1,181 @@
+
+@media (max-width: 575.98px) { 
+	img{
+		width: 70%;
+		margin: auto;
+	}
+
+	a{
+		font-size: 0.8em;
+	}
+
+	#logo{
+		width: 50%;
+	}
+
+	footer{
+		width: 100%;
+	}
+
+	#descricao{
+		width: 70%; 
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	img{
+		width: 70%;
+	}
+
+	a{
+		font-size: 0.8em;
+	}
+	#logo{
+		width: 50%;
+	}
+
+	#descricao{
+		width: 70%; 
+	}
+
+	footer{
+		width: 100%;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	img{
+		width: 70%;
+	}
+	
+	a{
+		font-size: 0.8em;
+	}
+
+	#logo{
+		width: 50%;
+	}
+
+	#descricao{
+		width: 70%; 
+	}
+
+	footer{
+		width: 100%;
+	}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	img{
+		width: 70%;
+	}
+
+	a{
+		font-size: 0.8em;
+	}
+	#logo{
+		width: 50%;
+	}
+
+
+	#descricao{
+		width: 70%; 
+	}
+
+	footer{
+		width: 100%;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	img{
+		width: 70%;
+	}
+
+	a{
+		font-size: 0.8em;
+	}
+	#logo{
+		width: 50%;
+	}
+	
+
+	#descricao{
+		width: 70%; 
+	}
+
+	footer{
+		width: 100%;
+	}
+}
+
+
+
+
+body{
+	background: url(imagens/fundo-caixa.png);
+	/*background: #03658C;*/
+
+
+}
+
+header{
+	background: #03588C;
+}
+
+
+h1{
+	color: white;
+}
+
+
+nav ul{
+	margin: 0;
+}
+a{
+	color: white;
+	text-transform: uppercase;
+
+}
+
+a:hover{
+	background: #D9734E;
+    text-decoration: none;
+    color: white;
+}
+
+
+#foto{
+	margin-top: 5px;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);	
+	border-radius: 5px;
+}
+
+
+
+#descricao{
+	margin: auto;
+	background: #F2F2F2;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color: #01261C;
+}
+
+#descricao p{
+    text-indent: 2em;
+}
+
+footer{
+	color: white;
+	font-size: 0.6em;
+	margin: auto;
+	background: #01261C;
+	line-height: 50px;
+}
