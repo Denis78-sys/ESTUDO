@@ -1,7 +1,7 @@
 
 @media (max-width: 575.98px) { 
 	img{
-		width: 70%;
+		width: 100%;
 		margin: auto;
 	}
 
@@ -18,14 +18,14 @@
 	}
 
 	#descricao{
-		width: 70%; 
+		width: 100%; 
 	}
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 	img{
-		width: 70%;
+		width: 100%;
 	}
 
 	a{
@@ -36,7 +36,7 @@
 	}
 
 	#descricao{
-		width: 70%; 
+		width: 100%; 
 	}
 
 	footer{
@@ -49,7 +49,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
 	img{
-		width: 70%;
+		width: 100%;
 	}
 	
 	a{
@@ -61,7 +61,7 @@
 	}
 
 	#descricao{
-		width: 70%; 
+		width: 100%; 
 	}
 
 	footer{
@@ -73,7 +73,7 @@
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 	img{
-		width: 70%;
+		width: 100%;
 	}
 
 	a{
@@ -85,7 +85,7 @@
 
 
 	#descricao{
-		width: 70%; 
+		width: 100%; 
 	}
 
 	footer{
@@ -96,7 +96,7 @@
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 	img{
-		width: 70%;
+		width: 100%;
 	}
 
 	a{
@@ -108,7 +108,7 @@
 	
 
 	#descricao{
-		width: 70%; 
+		width: 100%; 
 	}
 
 	footer{
@@ -157,7 +157,6 @@ a:hover{
 #foto{
 	margin-top: 5px;
 	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);	
-	border-radius: 5px;
 }
 
 
@@ -166,7 +165,7 @@ a:hover{
 	margin: auto;
 	background: #F2F2F2;
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
-    border-radius: 5px;
+
     color: #01261C;
 }
 
